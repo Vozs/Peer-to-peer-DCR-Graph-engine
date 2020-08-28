@@ -1,0 +1,10 @@
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\Node\bin\Release\netcoreapp3.0\Node.exe
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\Node\bin\Release\netcoreapp3.0\Node.deps.json
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\Node\bin\Release\netcoreapp3.0\Node.runtimeconfig.json
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\Node\bin\Release\netcoreapp3.0\Node.runtimeconfig.dev.json
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\Node\bin\Release\netcoreapp3.0\Node.dll
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\Node\bin\Release\netcoreapp3.0\Node.pdb
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\Node\obj\Release\netcoreapp3.0\Node.AssemblyInfoInputs.cache
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\Node\obj\Release\netcoreapp3.0\Node.AssemblyInfo.cs
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\Node\obj\Release\netcoreapp3.0\Node.dll
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\Node\obj\Release\netcoreapp3.0\Node.pdb

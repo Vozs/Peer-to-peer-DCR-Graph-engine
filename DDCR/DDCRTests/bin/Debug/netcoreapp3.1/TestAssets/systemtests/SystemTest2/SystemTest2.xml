@@ -1,0 +1,263 @@
+<dcrgraph title="DCR System Test example 2" dataTypesStatus="hide"  filterLevel="-1" zoomLevel="0" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB">
+    <specification>
+        <resources>
+            <events>
+                <event id="MainNode1_gdpr" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="250" yLoc="125" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="MainNode1_sign" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="475" yLoc="125" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="MainNode1_first" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="675" yLoc="125" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>3</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="MainNode2_need" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="250" yLoc="350" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group>Pc</group>
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;sdasd&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide>&lt;p&gt;asdasd&lt;/p&gt;</guide>
+                        <level>1</level>
+                        <sequence>4</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="MainNode3_order" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="475" yLoc="350" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="MainNode3_receive" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="675" yLoc="350" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses></subProcesses>
+            <distribution></distribution>
+            <labels>
+                <label id="GDPR Consent" />
+                <label id="Sign Contract" />
+                <label id="First day at Work" />
+                <label id="Need for PC" />
+                <label id="Order PC" />
+                <label id="Receive PC" />
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="MainNode1_gdpr" labelId="GDPR Consent"/>
+                <labelMapping eventId="MainNode1_sign" labelId="Sign Contract"/>
+                <labelMapping eventId="MainNode1_first" labelId="First day at Work"/>
+                <labelMapping eventId="MainNode2_need" labelId="Need for PC"/>
+                <labelMapping eventId="MainNode3_order" labelId="Order PC"/>
+                <labelMapping eventId="MainNode3_receive" labelId="Receive PC"/>
+            </labelMappings>
+            <expressions></expressions>
+            <variables></variables>
+            <variableAccesses>
+                <writeAccesses />
+            </variableAccesses>
+            <custom>
+                <keywords></keywords>
+                <roles></roles>
+                <groups>
+                    <group sequence="6"  description="">Pc</group>
+                </groups>
+                <phases></phases>
+                <eventTypes></eventTypes>
+                <eventParameters></eventParameters>
+                <graphDetails>DCR Graph</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups></filteredGroups>
+                    <filteredRoles></filteredRoles>
+                    <filteredPhases></filteredPhases>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"></hightlighterMarkup>
+                <highlighterMarkup>
+                    <highlightLayers></highlightLayers>
+                    <highlights></highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="MainNode1_gdpr" targetId="MainNode1_sign" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="MainNode1_sign" targetId="MainNode1_first" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="MainNode1_sign" targetId="MainNode3_order" filterLevel="0"  description=""  time=""  groups=""  />
+            </conditions>
+            <responses>
+                <response sourceId="MainNode1_sign" targetId="MainNode1_first" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="MainNode2_need" targetId="MainNode3_order" filterLevel="0"  description=""  time=""  groups=""  />
+            </responses>
+            <coresponses></coresponses>
+            <excludes>
+                <exclude sourceId="MainNode1_first" targetId="MainNode1_first" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="MainNode3_receive" targetId="MainNode3_order" filterLevel="0"  description=""  time=""  groups=""  />
+            </excludes>
+            <includes>
+                <include sourceId="MainNode2_need" targetId="MainNode3_order" filterLevel="0"  description=""  time=""  groups=""  />
+            </includes>
+            <milestones>
+                <milestone sourceId="MainNode3_order" targetId="MainNode1_first" filterLevel="0"  description=""  time=""  groups=""  />
+            </milestones>
+            <spawns></spawns>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking></globalMarking>
+        </custom>
+        <marking>
+            <globalStore></globalStore>
+            <executed></executed>
+            <included>
+                <event id="MainNode1_gdpr" />
+                <event id="MainNode1_sign" />
+                <event id="MainNode1_first" />
+                <event id="MainNode2_need" />
+                <event id="MainNode3_order" />
+                <event id="MainNode3_receive" />
+            </included>
+            <pendingResponses></pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

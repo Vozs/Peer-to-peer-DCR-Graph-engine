@@ -1,0 +1,230 @@
+<dcrgraph title="DCR System Test example 1" dataTypesStatus="hide"  filterLevel="-1" zoomLevel="0" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB">
+    <specification>
+        <resources>
+            <events>
+                <event id="MainNode1_request" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="325" yLoc="100" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="MainNode1_approve" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="550" yLoc="100" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="MainNode1_reject" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="550" yLoc="275" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>3</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="MainNode2_document" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="775" yLoc="100" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>4</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="MainNode2_pay" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="1000" yLoc="100" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses></subProcesses>
+            <distribution></distribution>
+            <labels>
+                <label id="Request unemployment benefit" />
+                <label id="Approve" />
+                <label id="Reject" />
+                <label id="Document monthly job-search &amp; activation" />
+                <label id="Pay benefits" />
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="MainNode1_request" labelId="Request unemployment benefit"/>
+                <labelMapping eventId="MainNode1_approve" labelId="Approve"/>
+                <labelMapping eventId="MainNode1_reject" labelId="Reject"/>
+                <labelMapping eventId="MainNode2_document" labelId="Document monthly job-search &amp; activation"/>
+                <labelMapping eventId="MainNode2_pay" labelId="Pay benefits"/>
+            </labelMappings>
+            <expressions></expressions>
+            <variables></variables>
+            <variableAccesses>
+                <writeAccesses />
+            </variableAccesses>
+            <custom>
+                <keywords></keywords>
+                <roles></roles>
+                <groups></groups>
+                <phases></phases>
+                <eventTypes></eventTypes>
+                <eventParameters></eventParameters>
+                <graphDetails>DCR Graph</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups></filteredGroups>
+                    <filteredRoles></filteredRoles>
+                    <filteredPhases></filteredPhases>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"></hightlighterMarkup>
+                <highlighterMarkup>
+                    <highlightLayers></highlightLayers>
+                    <highlights></highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="MainNode1_request" targetId="MainNode1_approve" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="MainNode1_request" targetId="MainNode1_reject" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="MainNode1_approve" targetId="MainNode2_document" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="MainNode2_document" targetId="MainNode2_pay" filterLevel="0"  description=""  time=""  groups=""  />
+            </conditions>
+            <responses>
+                <response sourceId="MainNode2_document" targetId="MainNode2_pay" filterLevel="0"  description=""  time=""  groups=""  />
+            </responses>
+            <coresponses></coresponses>
+            <excludes>
+                <exclude sourceId="MainNode1_approve" targetId="MainNode1_request" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="MainNode1_approve" targetId="MainNode1_approve" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="MainNode1_approve" targetId="MainNode1_reject" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="MainNode2_pay" targetId="MainNode2_pay" filterLevel="0"  description=""  time=""  groups=""  />
+            </excludes>
+            <includes>
+                <include sourceId="MainNode2_document" targetId="MainNode2_pay" filterLevel="0"  description=""  time=""  groups=""  />
+            </includes>
+            <milestones></milestones>
+            <spawns></spawns>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking></globalMarking>
+        </custom>
+        <marking>
+            <globalStore></globalStore>
+            <executed></executed>
+            <included>
+                <event id="MainNode1_request" />
+                <event id="MainNode1_approve" />
+                <event id="MainNode1_reject" />
+                <event id="MainNode2_document" />
+                <event id="MainNode2_pay" />
+            </included>
+            <pendingResponses></pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

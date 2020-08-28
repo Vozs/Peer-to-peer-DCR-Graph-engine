@@ -1,0 +1,224 @@
+<dcrgraph title="TestGraph3ExternalEvents" dataTypesStatus="hide"  filterLevel="-1" zoomLevel="0" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB">
+    <specification>
+        <resources>
+            <events>
+                <event id="MainNode_e1" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="300" yLoc="75" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="MainNode_e2" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="525" yLoc="75" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="MainNode_e3" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="775" yLoc="75" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>3</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="external_x1" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="300" yLoc="275" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>4</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="external_x2" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="525" yLoc="275" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses></subProcesses>
+            <distribution></distribution>
+            <labels>
+                <label id="e1" />
+                <label id="e2" />
+                <label id="e3" />
+                <label id="x1" />
+                <label id="x2" />
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="MainNode_e1" labelId="e1"/>
+                <labelMapping eventId="MainNode_e2" labelId="e2"/>
+                <labelMapping eventId="MainNode_e3" labelId="e3"/>
+                <labelMapping eventId="external_x1" labelId="x1"/>
+                <labelMapping eventId="external_x2" labelId="x2"/>
+            </labelMappings>
+            <expressions></expressions>
+            <variables></variables>
+            <variableAccesses>
+                <writeAccesses />
+            </variableAccesses>
+            <custom>
+                <keywords></keywords>
+                <roles></roles>
+                <groups></groups>
+                <phases></phases>
+                <eventTypes></eventTypes>
+                <eventParameters></eventParameters>
+                <graphDetails>DCR Graph</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups></filteredGroups>
+                    <filteredRoles></filteredRoles>
+                    <filteredPhases></filteredPhases>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"></hightlighterMarkup>
+                <highlighterMarkup>
+                    <highlightLayers></highlightLayers>
+                    <highlights></highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="MainNode_e1" targetId="MainNode_e2" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="MainNode_e3" targetId="external_x2" filterLevel="0"  description=""  time=""  groups=""  />
+            </conditions>
+            <responses></responses>
+            <coresponses></coresponses>
+            <excludes>
+                <exclude sourceId="MainNode_e1" targetId="external_x1" filterLevel="0"  description=""  time=""  groups=""  />
+            </excludes>
+            <includes>
+                <include sourceId="MainNode_e2" targetId="MainNode_e3" filterLevel="0"  description=""  time=""  groups=""  />
+                <include sourceId="external_x1" targetId="external_x2" filterLevel="0"  description=""  time=""  groups=""  />
+            </includes>
+            <milestones></milestones>
+            <spawns></spawns>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking></globalMarking>
+        </custom>
+        <marking>
+            <globalStore></globalStore>
+            <executed></executed>
+            <included>
+                <event id="MainNode_e1" />
+                <event id="MainNode_e2" />
+                <event id="MainNode_e3" />
+                <event id="external_x1" />
+                <event id="external_x2" />
+            </included>
+            <pendingResponses></pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

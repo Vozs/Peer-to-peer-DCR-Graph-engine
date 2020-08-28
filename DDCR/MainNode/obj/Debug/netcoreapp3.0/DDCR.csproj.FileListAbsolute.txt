@@ -1,0 +1,11 @@
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\DDCR\bin\Debug\netcoreapp3.0\DDCR.exe
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\DDCR\bin\Debug\netcoreapp3.0\DDCR.deps.json
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\DDCR\bin\Debug\netcoreapp3.0\DDCR.runtimeconfig.json
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\DDCR\bin\Debug\netcoreapp3.0\DDCR.runtimeconfig.dev.json
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\DDCR\bin\Debug\netcoreapp3.0\DDCR.dll
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\DDCR\bin\Debug\netcoreapp3.0\DDCR.pdb
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\DDCR\obj\Debug\netcoreapp3.0\DDCR.csprojAssemblyReference.cache
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\DDCR\obj\Debug\netcoreapp3.0\DDCR.AssemblyInfoInputs.cache
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\DDCR\obj\Debug\netcoreapp3.0\DDCR.AssemblyInfo.cs
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\DDCR\obj\Debug\netcoreapp3.0\DDCR.dll
+C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\DDCR\obj\Debug\netcoreapp3.0\DDCR.pdb
