@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\MainNode\\MainNode.csproj": {}
+    "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\MainNode\\MainNode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\MainNode\\MainNode.csproj": {
+    "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\MainNode\\MainNode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\MainNode\\MainNode.csproj",
+        "projectUniqueName": "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\MainNode\\MainNode.csproj",
         "projectName": "MainNode",
-        "projectPath": "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\MainNode\\MainNode.csproj",
+        "projectPath": "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\MainNode\\MainNode.csproj",
         "packagesPath": "C:\\Users\\Voss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\MainNode\\obj\\",
+        "outputPath": "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\MainNode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Voss\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.2, 3.0.2]"
+              "version": "[3.0.3, 3.0.3]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

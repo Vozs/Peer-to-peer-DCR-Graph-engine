@@ -16,13 +16,17 @@ namespace DDCR
     {
         private readonly IGraph graph;
         private readonly IConfig config;
-        private static readonly char TERMINATOR = '\u0017';
-        private static readonly string UNAVAILABLE = "UNAVAILABLE" + TERMINATOR;
-        private static readonly string SUCCESS = "SUCCESS";
+        private char Terminator;
+        private string UNAVAILABLE = "UNAVAILABLE";
+        private string SUCCESS = "SUCCESS";
         public Parser(IGraph graph, IConfig config)
         {
             this.graph = graph;
             this.config = config;
+            this.Terminator = config.Terminator;
+
+            //UNAVAILABLE should always close the connection
+            this.UNAVAILABLE += Terminator;
         }
 
         /// <summary>
@@ -179,7 +183,7 @@ namespace DDCR
                             graph.UnblockEvents(execId);
                             graph.EventsForeign.Remove(execId);
 
-                            return SUCCESS + TERMINATOR;
+                            return SUCCESS + Terminator;
                         }
                         break;
                     }
@@ -203,7 +207,7 @@ namespace DDCR
                             graph.UnblockEvents(execId);
                             graph.EventsForeign.Remove(execId);
 
-                            return SUCCESS + TERMINATOR;
+                            return SUCCESS + Terminator;
                         }
                         break;
                     }
@@ -214,7 +218,7 @@ namespace DDCR
                         {
                             Guid id = Guid.Parse(splitMessage[1]);
                             if (graph.GetAcceptingIds.Contains(id))
-                                return "ACCEPTING IGNORE" + TERMINATOR;
+                                return "ACCEPTING IGNORE" + Terminator;
 
                             graph.GetAcceptingIds.Add(id);
 
@@ -230,16 +234,16 @@ namespace DDCR
                             string prevPeers = newLineMessage[1];
                             bool reply = graph.GetAcceptingExternal(uniquePeers, prevPeers, id);
                             if (reply)
-                                return "TRUE" + TERMINATOR;
+                                return "TRUE" + Terminator;
                         }
-                        return "FALSE" + TERMINATOR;
+                        return "FALSE" + Terminator;
                     }
 
                 case "LOG":
                     {
                         Guid id = Guid.Parse(splitMessage[1]);
                         if (graph.GetLogIds.Contains(id))
-                            return "LOG IGNORE" + TERMINATOR;
+                            return "LOG IGNORE" + Terminator;
                         graph.GetLogIds.Add(id);
                         string[] receivedPeers = newLineMessage[1].Split(' ');
                         Dictionary<string, IClient> uniquePeers = new Dictionary<string, IClient>();
@@ -254,7 +258,7 @@ namespace DDCR
                         
                         ILog reply = graph.Log.GetGlobal(uniquePeers, prevPeers, id);
 
-                        return reply.ToString() + TERMINATOR;
+                        return reply.ToString() + Terminator;
                     }
             }
             return UNAVAILABLE;

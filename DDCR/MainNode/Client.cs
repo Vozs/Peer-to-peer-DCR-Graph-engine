@@ -20,7 +20,7 @@ namespace DDCR
         public Semaphore Semaphore = new Semaphore(1, 1);
         public IPAddress IpAddress => ip;
         private IConfig config;
-        private static readonly char TERMINATOR = '\u0017';
+        private char Terminator;
 
         public Client(string ip, int port, IConfig config)
         {
@@ -32,6 +32,7 @@ namespace DDCR
                 ReceiveTimeout = config.ClientTimeoutMs,
                 SendTimeout = config.ClientTimeoutMs
             };
+            Terminator = config.Terminator;
         }
 
         public async Task<string> SendAsync(string msg, bool endConnection)
@@ -51,7 +52,7 @@ namespace DDCR
                 //Prepend M to indicate it is a main node request.
                 //Append terminator symbol if it is the last message to be sent in a sequence.
                 if (endConnection)
-                    msg += TERMINATOR;
+                    msg += Terminator;
 
                 byte[] buffer = Encoding.UTF8.GetBytes("M:"+msg);
                 await stream.WriteAsync(buffer, 0, buffer.Length);
@@ -61,7 +62,7 @@ namespace DDCR
 
                 reply = Parser.DecodeMessage(buffer);
 
-                if (reply[reply.Length - 1] == TERMINATOR)
+                if (reply[reply.Length - 1] == Terminator)
                 {
                     endConnection = true;
                     reply = reply.Substring(0, reply.Length - 1);
@@ -99,6 +100,7 @@ namespace DDCR
         /// <returns>Returns a bool indicating whether or not they are connected.</returns>
         private bool IsConnected()
         {
+            //Note: This is not very efficient since it loops through all active TCP connections, but it is faster than closing and reconnecting every time. 
             IPGlobalProperties ipProp = IPGlobalProperties.GetIPGlobalProperties();
             TcpConnectionInformation connection = ipProp.GetActiveTcpConnections()
                 .FirstOrDefault(x =>

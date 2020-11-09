@@ -20,3 +20,16 @@ C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\MainNode\obj\
 C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\MainNode\obj\Debug\netcoreapp3.0\MainNode.AssemblyInfo.cs
 C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\MainNode\obj\Debug\netcoreapp3.0\MainNode.dll
 C:\Users\Voss\Desktop\Datalogi\BachelorProjekt\Final\Bachelor\DDCR\MainNode\obj\Debug\netcoreapp3.0\MainNode.pdb
+C:\Users\Voss\Desktop\xd\Peer-to-peer-DCR-Graph-engine\DDCR\MainNode\obj\Debug\netcoreapp3.0\MainNode.csprojAssemblyReference.cache
+C:\Users\Voss\Desktop\xd\Peer-to-peer-DCR-Graph-engine\DDCR\MainNode\obj\Debug\netcoreapp3.0\MainNode.AssemblyInfoInputs.cache
+C:\Users\Voss\Desktop\xd\Peer-to-peer-DCR-Graph-engine\DDCR\MainNode\obj\Debug\netcoreapp3.0\MainNode.AssemblyInfo.cs
+C:\Users\Voss\Desktop\xd\Peer-to-peer-DCR-Graph-engine\DDCR\MainNode\obj\Debug\netcoreapp3.0\MainNode.csproj.CoreCompileInputs.cache
+C:\Users\Voss\Desktop\xd\Peer-to-peer-DCR-Graph-engine\DDCR\MainNode\obj\Debug\netcoreapp3.0\MainNode.dll
+C:\Users\Voss\Desktop\xd\Peer-to-peer-DCR-Graph-engine\DDCR\MainNode\obj\Debug\netcoreapp3.0\MainNode.pdb
+C:\Users\Voss\Desktop\xd\Peer-to-peer-DCR-Graph-engine\DDCR\MainNode\bin\Debug\netcoreapp3.0\MainNode.exe
+C:\Users\Voss\Desktop\xd\Peer-to-peer-DCR-Graph-engine\DDCR\MainNode\bin\Debug\netcoreapp3.0\MainNode.deps.json
+C:\Users\Voss\Desktop\xd\Peer-to-peer-DCR-Graph-engine\DDCR\MainNode\bin\Debug\netcoreapp3.0\MainNode.runtimeconfig.json
+C:\Users\Voss\Desktop\xd\Peer-to-peer-DCR-Graph-engine\DDCR\MainNode\bin\Debug\netcoreapp3.0\MainNode.runtimeconfig.dev.json
+C:\Users\Voss\Desktop\xd\Peer-to-peer-DCR-Graph-engine\DDCR\MainNode\bin\Debug\netcoreapp3.0\MainNode.dll
+C:\Users\Voss\Desktop\xd\Peer-to-peer-DCR-Graph-engine\DDCR\MainNode\bin\Debug\netcoreapp3.0\MainNode.pdb
+C:\Users\Voss\Desktop\xd\Peer-to-peer-DCR-Graph-engine\DDCR\MainNode\obj\Debug\netcoreapp3.0\MainNode.genruntimeconfig.cache

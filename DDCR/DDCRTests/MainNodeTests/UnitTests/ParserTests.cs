@@ -12,7 +12,7 @@ namespace DDCRTests.UnitTests
 {
     public class ParserTests
     {
-        string Terminator = "\u0017";
+        char Terminator = '\u0017';
         string Success = "SUCCESS";
         string Unavailable = "UNAVAILABLE";
         //Some tests use the Log class, because the function of the parser method is to reconstruct and return a Log object.
@@ -23,6 +23,7 @@ namespace DDCRTests.UnitTests
         public void Setup()
         {
             MockConfig = new Mock<IConfig>();
+            MockConfig.SetupGet(x => x.Terminator).Returns(this.Terminator);
             config = MockConfig.Object;
         }
         [Test]

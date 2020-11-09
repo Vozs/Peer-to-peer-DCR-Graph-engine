@@ -39,5 +39,10 @@ namespace DDCR
         /// Mapping of nodes to the events that they may execute.
         /// </summary>
         public Dictionary<IPAddress, HashSet<string>> NodeEventsMapping { get; }
+
+        /// <summary>
+        /// Char used to indicate the end of a message.
+        /// </summary>
+        public char Terminator { get; }
     }
 }

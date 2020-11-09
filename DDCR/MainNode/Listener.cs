@@ -17,13 +17,14 @@ namespace DDCR
         private readonly IConfig config;
         private readonly int port;
         private readonly Parser parser;
-        private static readonly char TERMINATOR = '\u0017';
+        private char Terminator;
 
         public Listener(Parser parser, IConfig config)
         {
             this.parser = parser;
             this.port = config.ListenPort;
             this.config = config;
+            this.Terminator = config.Terminator;
         }
         /// <summary>
         /// A listen method waiting for incoming TCP requests.
@@ -65,7 +66,7 @@ namespace DDCR
 
                         string msg = Parser.DecodeMessage(buffer);
                         peerType = Convert.ToChar(msg.Substring(0, 1));
-                        if (msg[msg.Length-1] == TERMINATOR)
+                        if (msg[msg.Length-1] == Terminator)
                         {
                             endConnection = true;
                             msg = msg.Substring(0, msg.Length - 1);

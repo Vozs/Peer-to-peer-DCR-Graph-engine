@@ -4917,11 +4917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\DDCRTests\\DDCRTests.csproj",
+      "projectUniqueName": "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\DDCRTests\\DDCRTests.csproj",
       "projectName": "DDCRTests",
-      "projectPath": "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\DDCRTests\\DDCRTests.csproj",
+      "projectPath": "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\DDCRTests\\DDCRTests.csproj",
       "packagesPath": "C:\\Users\\Voss\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\DDCRTests\\obj\\",
+      "outputPath": "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\DDCRTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Voss\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4937,11 +4937,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\MainNode\\MainNode.csproj": {
-              "projectPath": "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\MainNode\\MainNode.csproj"
+            "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\MainNode\\MainNode.csproj": {
+              "projectPath": "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\MainNode\\MainNode.csproj"
             },
-            "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\Node\\Node.csproj": {
-              "projectPath": "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\Node\\Node.csproj"
+            "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\Node\\Node.csproj": {
+              "projectPath": "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\Node\\Node.csproj"
             }
           }
         }
@@ -4991,7 +4991,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

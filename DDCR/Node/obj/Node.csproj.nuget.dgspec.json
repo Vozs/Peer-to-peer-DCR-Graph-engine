@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\Node\\Node.csproj": {}
+    "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\Node\\Node.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\Node\\Node.csproj": {
+    "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\Node\\Node.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\Node\\Node.csproj",
+        "projectUniqueName": "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\Node\\Node.csproj",
         "projectName": "Node",
-        "projectPath": "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\Node\\Node.csproj",
+        "projectPath": "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\Node\\Node.csproj",
         "packagesPath": "C:\\Users\\Voss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Voss\\Desktop\\Datalogi\\BachelorProjekt\\Final\\Bachelor\\DDCR\\Node\\obj\\",
+        "outputPath": "C:\\Users\\Voss\\Desktop\\xd\\Peer-to-peer-DCR-Graph-engine\\DDCR\\Node\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Voss\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

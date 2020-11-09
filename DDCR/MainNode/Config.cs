@@ -33,7 +33,7 @@ namespace DDCR
         
         public Dictionary<IPAddress, HashSet<string>> NodeEventsMapping => nodeEventsMapping;
 
-        public readonly char Terminator = '\u0017';
+        public char Terminator { get => '\u0017'; set => Terminator = value; }
 
         private string name;
         private int listenPort;
